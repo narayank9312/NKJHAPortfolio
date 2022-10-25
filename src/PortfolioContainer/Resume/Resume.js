@@ -1,4 +1,4 @@
-import React, { useState , useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import ScreenHeading from "../../Utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../Utilities/scrollService";
 import Animations from "../../Utilities/Animations";
@@ -8,7 +8,7 @@ import education from "../../assets/Resume/education.svg";
 import work from "../../assets/Resume/work-history.svg";
 import programming from "../../assets/Resume/programming-skills.svg";
 import projects from "../../assets/Resume/projects.svg";
-import interests from '../../assets/Resume/interests.svg'
+import interests from "../../assets/Resume/interests.svg";
 
 const Resume = (props) => {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
@@ -120,7 +120,7 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Poumki Digital LLP"}
+          heading={"Opoyi PVT LTD"}
           subHeading={"FULL STACK DEVELOPER "}
           fromDate={"2021"}
           toDate={"Present"}
@@ -224,11 +224,11 @@ const Resume = (props) => {
         {console.log("in logo check", bullet.logoSrc)}
         <img
           className="bullet-logo"
-            // src={require(`../../assets/Resume/programming-skills.svg`).default}
-            // src={require(`${bullet.logoSrc}`).default}
+          // src={require(`../../assets/Resume/programming-skills.svg`).default}
+          // src={require(`${bullet.logoSrc}`).default}
 
           src={bullet.logoSrc}
-            // alt="B"
+          // alt="B"
         />
         <span className="bullet-label">{bullet.label}</span>
       </div>
