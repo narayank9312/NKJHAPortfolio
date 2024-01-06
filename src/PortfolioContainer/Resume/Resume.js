@@ -76,20 +76,20 @@ const Resume = (props) => {
       subHeading: "Technologies Used: React JS, Bootsrap",
     },
     {
-      title: "Mobile E-shop ",
+      title: "Anonymity ",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "An ecommerce application designed to sell products online wth payment system integration",
+        "Developed an online complaint management system bridging students and authorities",
       subHeading:
-        "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
+        "Technologies Used:  HTML, CSS, JavaScript, ReactJS, and Node.js.",
     },
     {
-      title: "Ecommerce Website ",
+      title: "Moving Object Detection",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+        "Created an online platform to detect moving objects using ReactJS and TensorFlow 75% to 80% accuracy.",
       subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+        "Technologies Used: TenserFlow, Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
     },
   ];
 
@@ -118,14 +118,32 @@ const Resume = (props) => {
 
     /* WORK EXPERIENCE */
     <div className="resume-screen-container" key="work-experience">
-      <div className="experience-container">
-        <ResumeHeading
-          heading={"Opoyi PVT LTD"}
-          subHeading={"FULL STACK DEVELOPER "}
-          fromDate={"2021"}
-          toDate={"Present"}
-        />
-        <div className="experience-description">
+      {/* <div className="experience-container"> */}
+      <ResumeHeading
+        heading={"Ajio.com"}
+        subHeading={"Software Engineer "}
+        fromDate={"Jan 2023"}
+        toDate={"Present"}
+      />
+      <ResumeHeading
+        heading={"Opoyi"}
+        subHeading={"Software Engineer "}
+        fromDate={"April 2022"}
+        toDate={"Jan 2023"}
+      />
+      <ResumeHeading
+        heading={"Poumki Digital LLP"}
+        subHeading={"FULL STACK DEVELOPER "}
+        fromDate={"June 2021"}
+        toDate={"April 2022"}
+      />
+      {/* <ResumeHeading
+          heading={"Codersvaly"}
+          subHeading={"Software Developer Intern "}
+          fromDate={"jan 2020 "}
+          toDate={"june 2021"}
+        /> */}
+      {/* <div className="experience-description">
           <span className="resume-description-text">
             Currently working as MERN stack web and mobile developer
           </span>
@@ -147,8 +165,8 @@ const Resume = (props) => {
             designs.
           </span>
           <br />
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>,
 
     /* PROGRAMMING SKILLS */
@@ -192,7 +210,7 @@ const Resume = (props) => {
       />
       <ResumeHeading
         heading="Music"
-        description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
+        description="Currently decoding the mystical language of the flute – because playing with code isn't the only language I'm fluent in. 🎶 Stay tuned for a symphony of learning moments, where algorithms meet arpeggios and coding meets cadences. It's not just about writing notes; it's about crafting a musical journey in the world of programming. Portfolio melody in the making – hit play soon!"
       />
       <ResumeHeading
         heading="Competitive Gaming"

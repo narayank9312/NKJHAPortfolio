@@ -62,9 +62,11 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I patronized Ehizeex and when He delivered, I honestly
-                      fell in love with the project He is a very honest guy and
-                      he delivers ontime.
+                      Attention: The testimonial section is currently under
+                      construction. We're putting the 'fun' in 'functionality'
+                      and the 'giggle' in 'code snippet.' Get ready for a
+                      tech-tastic comedy extravaganza. Launching soon – don't
+                      touch that browser
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -98,9 +100,11 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      It was nice hiring this guy for my e-commerce project.He
-                      delivered even more than i can imagine. I recommend him
-                      for you.
+                      Buckle up, fellow internet traveler! The testimonial
+                      section is revving up its engines for an epic launch.
+                      Think of it as the software update your portfolio always
+                      dreamed of. Coming soon – with a touch of code and a
+                      sprinkle of comedy!
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -133,9 +137,11 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      When he delivered my job, my head spinned, it was so nice
-                      and he implemented every functionality i requested for.
-                      Thank you.
+                      Why did the testimonial cross the webpage? To get to the
+                      'Coming Soon' section! Brace yourselves for a
+                      laugh-a-minute tech fiesta. The curtains are about to
+                      rise, and the punchlines are ready for their grand
+                      entrance.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -168,9 +174,10 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      This guy is incredibly awesome, I hired him and when He
-                      delivered, I honestly fell in love with the project. He is
-                      indeed a great guy,
+                      Testing, testing, 1, 2, 3 – the testimonial section is in
+                      the comedy lab, getting its code polished and jokes
+                      debugged. Expect a fusion of laughter and tech brilliance.
+                      Coming soon, where humor meets the command line!
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
