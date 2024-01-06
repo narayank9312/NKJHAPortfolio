@@ -1,7 +1,3 @@
 {
-  "build": {
-    "scripts": {
-      "install": "npm install --force"
-    }
-  }
+  "installCommand": "npm install --force"
 }
