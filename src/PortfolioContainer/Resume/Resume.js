@@ -128,13 +128,13 @@ const Resume = (props) => {
       <ResumeHeading
         heading={"Opoyi"}
         subHeading={"Software Engineer "}
-        fromDate={"April 2022"}
+        fromDate={"April 2021"}
         toDate={"Jan 2023"}
       />
       <ResumeHeading
         heading={"Poumki Digital LLP"}
         subHeading={"FULL STACK DEVELOPER "}
-        fromDate={"June 2021"}
+        fromDate={"July 2021"}
         toDate={"April 2022"}
       />
       {/* <ResumeHeading
