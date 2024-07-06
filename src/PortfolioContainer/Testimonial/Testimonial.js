@@ -87,11 +87,11 @@ export default function Testimonial(props) {
                       </li>
                     </ul>
                   </div>
-                  <div className="client-info">
+                  {/* <div className="client-info">
                     <img src={lady} alt="no internet connection"></img>
                     <h5>Daisy Dominic</h5>
                     <p>CEO InansGlobal</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -125,11 +125,11 @@ export default function Testimonial(props) {
                       </li>
                     </ul>
                   </div>
-                  <div className="client-info">
+                  {/* <div className="client-info">
                     <img src={mike} alt="no internet connection"></img>
                     <h5>Mikel</h5>
                     <p>CEO MikeTech</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-12">
@@ -162,11 +162,11 @@ export default function Testimonial(props) {
                       </li>
                     </ul>
                   </div>
-                  <div className="client-info">
+                  {/* <div className="client-info">
                     <img src={lady} alt="no internet connection"></img>
                     <h5>Daisy Dominic</h5>
                     <p>CEO InansGlobal</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-12">
@@ -198,11 +198,11 @@ export default function Testimonial(props) {
                       </li>
                     </ul>
                   </div>
-                  <div className="client-info">
+                  {/* <div className="client-info">
                     <img src={man} alt="no internet connection"></img>
                     <h5>John Smith</h5>
                     <p>Bnaker</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </OwlCarousel>

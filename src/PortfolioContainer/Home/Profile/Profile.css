@@ -54,11 +54,12 @@
   height: 92%;
   width: 92%;
   background-image: url("../../../assets/Home/me.jpg");
-  background-size: cover;
+  background-size: cover; /* Ensures the image covers the container */
   border-radius: 50%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center calc(14%); /* Ensures the image height from the top does not get hidden */
 }
+
 .profile-picture-background:hover {
   transform: scale(1.07);
   transition: 1s ease-out;
